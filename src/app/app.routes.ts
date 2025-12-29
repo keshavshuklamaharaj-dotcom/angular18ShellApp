@@ -6,11 +6,11 @@ export const routes: Routes = [
         loadComponent: () => import('./home/home.component').then(m => m.HomeComponent)
     },
     {
-        path: 'chalkboard',
+        path: 'status',
           loadComponent: () => import('./board/board.component').then(m => m.BoardComponent)
     },
     {
-        path: 'userflow',
+        path: 'interbiz',
         loadComponent: () => import('./board2/board2.component').then(m => m.Board2Component)
     },
 ];
